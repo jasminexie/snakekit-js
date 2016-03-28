@@ -36,7 +36,7 @@
                 throw new Error("Invalid DOM type");
             }
             $target.addClass('disabled-btn');
-            id = setInterval(function(){
+            var id = setInterval(function(){
                 if (current_ellipsis < config.ellipsis_number) {
                     if (type=="button") {
                         $target.append(config.ellipsis_icon);
@@ -69,6 +69,8 @@
             }
             $target.removeClass('disabled-btn');
             clearInterval($target.attr('data-interval'));
+            $target.removeAttr('data-interval');
+            $target.removeAttr('data-text');
         };
 
         return this.each(function(){

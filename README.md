@@ -13,7 +13,7 @@ __Todo__
 
 __Disclaimer__
 
-The project name is called SnakeKit... becuase it was developed by Big Green Snake (me!). It doesn **NOT** have anything to do with snakes. 
+The project name is called SnakeKit... becuase it was developed by Big Green Snake (me!). It does **NOT** have anything to do with snakes. 
 
 # Using SnakeKit
 
@@ -48,7 +48,7 @@ __Options__
 
 Option	| Type | Default value	|	Description
 -------|------|-------|--------------
-type	|	String | "stop" | Starts or stops the effect. If type != "false", the effect will be activated.
+type	|	String | "stop" | Starts or stops the effect. If type != "stop", the effect will be activated.
 ellipsis_text | String | "正在跳转" | The text that the button will show when the effect is activated.
 ellipsis_icon | String | "."	| The ellipsis icon that will be appended to the button text
 ellipsis_number | integer | 3 | The maximum number of ellipses displayed
