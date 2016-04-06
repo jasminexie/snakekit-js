@@ -61,3 +61,21 @@ __Todo__
 * original_text can be dynamically generated onStop
 * supports callback functions
 
+### Equal Heights
+
+````
+equalHeights();
+````
+
+A very simple jQuery plugin that dynamically aligns the height of your DOMs. Useful for static pages, probably breaks down in JS frameworks. *I tried to use this in Backbone.js... fail.*
+
+__Starting the effect__
+
+````
+$('#sidebar1 #sidebar2 #content').equalHeights();
+````
+
+__Todo__
+
+* Add options: minHeight, maxHeight, start, stop, etc.
+* Try to tweak this to work in the Backbone.js project that I'm working on. o.O
