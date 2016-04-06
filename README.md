@@ -79,3 +79,24 @@ __Todo__
 
 * Add options: minHeight, maxHeight, start, stop, etc.
 * Try to tweak this to work in the Backbone.js project that I'm working on. o.O
+
+
+### Navbar slider
+
+````
+navbarSlider();
+````
+
+A very simple jQuery plugin that creates a cool bouncy slide effect for your navigation bars. Practically useless for everybody except me.
+
+__Starting the effect__
+
+````
+$('#navbar-items-container').navbarSlider();
+````
+
+__Todo__
+
+* Add options: navbar item type selector, class selector, make it customizable etc.
+* Add a .gif of what it does, so that *someone* may understand. o.O
+
